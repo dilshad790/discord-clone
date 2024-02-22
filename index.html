@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        /* @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Black+Han+Sans&display=swap') */
+
+        
+
+        .section1 {
+            @media (max-width:980px) {
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    max-width: 50%;
+                    margin-left: 20px;
+                }
+
+                h2 {
+                   max-width: 90%;
+                    font-size: 30px;
+                    margin-left: 20px;
+                }
+
+            }
+        }
+
+        .section2 {
+            @media (max-width:980px) {
+                display: flex;
+                flex-direction: column-reverse;
+
+                p {
+                    max-width: 50%;
+                    margin-left: 20px;
+                }
+
+                h2 {
+                    max-width: 90%;
+                    font-size: 30px;
+                    margin-left: 20px;
+                }
+
+            }
+        }
+
+        .section3 {
+            @media (max-width:980px) {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                justify-content: start;
+                align-items: flex-start;
+
+
+                p {
+                    width: 50%;
+                    margin-left: 20px;
+                }
+
+                h2 {
+                    width: 90%;
+                    font-size: 30px;
+                    margin-left: 20px;
+                }
+
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="overflow-x-hidden">
+
+        <!-- <section class="bg-[#404eed] relative">
+
+            <nav class="w-[1180px] flex  mx-auto justify-between relative text-white py-5 ">
+                 logo  image
+                <img src="./assets (3)/asset 0.svg" alt="" class="w-[150px]" loading="lazy">
+                nav items
+                <div class=" text-white font-semibold hover:decoration-solid hover:underline">
+                    <a href="#">Download</a>
+
+                </div>
+
+                <div class="flex flex-row justify-between font-semibold hover:decoration-solid hover:underline">
+                    <a href="#">Nitro</a>
+                </div>
+
+
+                <div class="flex flex-row justify-between font-semibold hover:decoration-solid hover:underline">
+                    <a href="#">Discover</a>
+
+                </div>
+
+                <div class="flex flex-row justify-between font-semibold hover:decoration-solid hover:underline">
+                    <a href="#">Safety</a>
+                </div>
+
+                <div class="flex flex-row justify-between font-semibold hover:decoration-solid hover:underline">
+                    <a href="#">Support</a>
+                </div>
+
+                <div class="flex flex-row justify-between font-semibold hover:decoration-solid hover:underline">
+                    <a href="#">Blog</a>
+                </div>
+
+                <div class="flex flex-row justify-between font-semibold hover:decoration-solid hover:underline">
+                    <a href="#">Career</a>
+                </div>
+            
+                   -->
+        <!-- login button -->
+        <!-- <button class="bg-white text-black rounded-full w-[60px] font-semibold">
+                    <a href="">Login</a>
+                </button>
+
+            </nav>
+        </section> -->
+
+
+        <!-- Nav Bar -->
+        <section class="bg-[#404eed]">
+
+            <nav class=" max-w-[1200px] mx-auto flex flex-row justify-between items-center h-[72px] text-white">
+                <!-- logo image -->
+                <div class="w-[150px] ">
+                    <img src="./assets (3)/asset 0.svg" alt="" class="w-full">
+                </div>
+
+                <!-- Nav items -->
+                <ul class="md:flex  gap-7  hidden  font-semibold ">
+                    <li>Download</li>
+                    <li>Nitro</li>
+                    <li>Discover</li>
+                    <li>Safety</li>
+                    <li>Support</li>
+                    <li>Blog</li>
+                    <li>Careers</li>
+                </ul>
+
+                <div>
+                    <!-- sign up button -->
+                    <button class="bg-[#ffff] text-black rounded-full w-[70px] font-semibold py-2">
+                        <a href="">Login</a>
+                    </button>
+                </div>
+                <!-- Ham burger -->
+
+            </nav>
+        </section>
+
+        <!-- Hero Section -->
+        <section class=" bg-[#404eed] relative ">
+
+            <div
+                class="w-[1180]  flex  flex-col  justify-center  items-center gap-[50px]  overflow-x-hidden py-[100px]">
+
+
+                <h2 class="font-[800] text-white text-left xl:text-center text-[34px] md:text-[56px] leading-[26px]">
+                    IMAGINE A PLACE...
+                </h2>
+                <p
+                    class="max-w-[780px] mt-7 text-white font-serif text-[20px] font-[400] leading-[36px] z-20 md:w-[70%] xl:w-[90%]">
+                    ...where you can belong to a school
+                    club, a
+                    gaming group, or a worldwide art
+                    community. Where just you and a
+                    handful of friends can spend time together. A place that makes it easy
+                    to talk every day and hang out more often.
+                </p>
+                <!-- download Button -->
+                <div class="flex flex-row gap-3 mb-[100px]">
+
+                    <button class="bg-white rounded-full w-[300px] py-4 hover:text-blue-500 z-20 ">
+                        <img src="./" alt="">
+                        <a href="">Download for Windows</a>
+                    </button>
+                    <button
+                        class="bg-black text-white rounded-full  w-[300px] py-4  hover:bg-gray-800 transition-all duration-500 z-20">
+                        <a href="">Open Discord in your browser</a>
+                    </button>
+                </div>
+                <img src="./assets (3)/asset 7.svg" alt=""
+                    class="xl:absolute max-w-[50%] top-[50%] mt-[0px]  xl:-left-[20%] xl:top-[30%] z-10 ">
+                <img src="./assets (3)/asset 6.svg" alt=""
+                    class="xl:absolute max-w-[50%] top-[50%] mt-[0px] hidden xl:block xl:-right-[20%] xl:top-[30%] z-10 "
+                    loading="lazy">
+                <!-- max-w-[600px] -right-[100px] top-[90px] z-10 md:flex -->
+            </div>
+
+
+        </section>
+        <!-- section1 -->
+        <section>
+            <div class=" section1 max-w-[1080px] bg-[#f6f6f6]  mx-auto flex flex-row mt-10 ">
+
+                <!-- left  -->
+                <div>
+                    <img src="./assets (3)/asset 8.svg" alt="" class="max-w-[500px]" loading="lazy">
+                </div>
+
+                <!-- right -->
+                <div class="flex flex-col">
+                    <h2 class="text-5xl font-bold ">Create an invite-only place where you belong</h2>
+                    <p class=" mt-7">Discord servers are organized into topic-based channels where you can
+                        collaborate,
+                        share, and just talk about your day without clogging up a group chat.</p>
+                </div>
+
+            </div>
+        </section>
+        <!-- section 2 -->
+        <section class="bg-[#f6f6f6]">
+            <div class="section2 max-w-[1080px] mx-auto flex flex-row  mt-10">
+
+
+                <!-- left  -->
+                <div class="flex flex-col">
+                    <h2 class="text-5xl font-bold w-[400px]">Where hanging out is easy</h2>
+                    <p class=" mt-7">Grab a seat in a voice channel when you’re free. Friends in your
+                        server
+                        can see you’re around and instantly pop in to talk without having to call.</p>
+                </div>
+
+                <!-- right -->
+                <div>
+                    <img src="./assets (3)/asset 9.svg" alt="" class="w-[500px]" loading="lazy">
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- section3 -->
+        <section>
+            <div class="section3 w-[1080px] mx-auto flex flex-row justify-between items-center mt-10">
+                <!-- left -->
+                <div>
+                    <img src="./assets (3)/asset 10.svg" alt="" class="w-[500px]" loading="lazy">
+                </div>
+
+                <!-- right  -->
+                <div class="flex flex-col">
+                    <h2 class="text-5xl font-bold w-[400px]">From few to a fandom</h2>
+                    <p class="w-[350px] mt-7">Get any community running with moderation tools and custom member access.
+                        Give members special powers, set up private channels, and more.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="bg-[#f6f6f6]">
+            <div class="max-w-[1080px] mx-auto flex flex-col justify-center items-center gap-10 ">
+
+                <h3 class=" text-4xl font-extrabold mt-7">RELIABLE TECH FOR STAYING CLOSE</h3>
+                <p class="">Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch
+                    friends stream their games, or gather up and have a drawing session with screen share.</p>
+                <img src="./assets (3)/asset 11.svg" alt="">
+                <h2 class="text-3xl font-bold">Ready to start your journey?</h2>
+
+                <button
+                    class="bg-[#5865f2] text-white rounded-full  w-[300px] py-4 mb-6 hover:bg-gray-800 transition-all duration-500">
+                    <a href="" class="mx-auto flex flex-row justify-center items-center"><img
+                            src="./assets (3)/asset 25.svg" alt="" class="rotate-90 w-[40px]  ">
+                        Download for Windows</a>
+                </button>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section class="bg-[#23272a] ">
+
+            <div class="w-11/12 mx-auto flex flex-col">
+                <!-- main content -->
+                <div class=" grid grid-cols-2 md:grid-cols-4 text-white py-[100px]">
+                    <!-- grid 1 -->
+
+                    <!-- <div class="flex gap-4">
+                        <a href="">
+                            <i class="fa-brands fa-x-twitter"></i>
+
+                        </a>
+
+                        <a href="">
+
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="">
+
+                            <i class="fa-brands fa-facebook"></i>
+                        </a> -->
+<!-- 
+                        <a href="">
+
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                        <a href="">
+
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+
+                    </div> -->
+
+                    <!-- grid 2 -->
+                    <div class="flex flex-col gap-4 ">
+                        <h2 class="text-[#5865f2] ">Product</h2>
+                        <a href="#" class="hover:decoration-solid hover:underline">Download</a>
+                        <a href="#" class="hover:decoration-solid hover:underline">Nitro</a>
+                        <a href="#" class="hover:decoration-solid hover:underline">Status</a>
+                        <a href="#" class="hover:decoration-solid hover:underline">App Directory</a>
+                        <a href="#" class="hover:decoration-solid hover:underline">New Mobile Experience</a>
+                    </div>
+
+                    <!-- grid 3 -->
+                    <div class="flex flex-col gap-4">
+                        <h2 class="text-[#5865f2]">Company</h2>
+                        <a href="" class="hover:decoration-solid hover:underline">About</a>
+                        <a href="" class="hover:decoration-solid hover:underline">Jobs</a>
+                        <a href="" class="hover:decoration-solid hover:underline">Brand</a>
+                        <a href="" class="hover:decoration-solid hover:underline">News Room</a>
+                        <!-- <a href="">New Mobile Experience</a> -->
+
+                    </div>
+
+                    <!-- grid 4 -->
+                    <div class="flex flex-col gap-4">
+                        <h2 class="text-[#5865f2]">Resources</h2>
+                        <a href="" class="hover:decoration-solid hover:underline">College</a>
+                        <a href="" class="hover:decoration-solid hover:underline">Support</a>
+                        <a href="" class="hover:decoration-solid hover:underline">Safety</a>
+                        <a href="" class="hover:decoration-solid hover:underline">Blog</a>
+                        <a href="" class="hover:decoration-solid hover:underline">Feedback</a>
+                        <a href="" class="hover:decoration-solid hover:underline">StreamKit</a>
+                        <a href="" class="hover:decoration-solid hover:underline">Creators</a>
+                        <a href="" class="hover:decoration-solid hover:underline">Community</a>
+                        <a href="" class="hover:decoration-solid hover:underline">Developers</a>
+                        <a href="" class="hover:decoration-solid hover:underline">Gaming</a>
+                        <a href="" class="hover:decoration-solid hover:underline">Official 3rd Party Merch</a>
+                        <!-- <a href="">New Mobile Experience</a> -->
+                    </div>
+                    <!-- grid 5 -->
+                    <div class="flex flex-col gap-4">
+                        <h2 class="text-[#5865f2]">Policies</h2>
+                        <a href="" class="hover:decoration-solid hover:underline">Terms</a>
+                        <a href="" class="hover:decoration-solid hover:underline">Privacy</a>
+                        <a href="" class="hover:decoration-solid hover:underline">Cookie Setting</a>
+                        <a href="" class="hover:decoration-solid hover:underline">Guidelines</a>
+                        <a href="" class="hover:decoration-solid hover:underline">Acknowledgement</a>
+                        <a href="" class="hover:decoration-solid hover:underline">StreamKit</a>
+                        <a href="" class="hover:decoration-solid hover:underline">Licences</a>
+                        <a href="" class="hover:decoration-solid hover:underline">Company Information</a>
+
+                    </div>
+
+                </div>
+
+                <div class="  h-1 bg-gray-500 relative "></div>
+
+                <div class="flex flex-row justify-between py-3">
+
+                    <!-- left -->
+                    <div>
+                        <a href="">
+                            <img src="./assets (3)/asset 0.svg" alt="" class="w-[190px]">
+
+                        </a>
+                    </div>
+                    <!-- right -->
+                    <div>
+                        <!-- sign up button -->
+                        <button class="bg-[#5865f2] text-white rounded-full w-[70px] font-semibold py-2">
+                            <a href="">Sign Up</a>
+                        </button>
+                    </div>
+
+                </div>
+
+
+                <!-- <div class="w-full h-2 bg-white bottom-6"></div> -->
+            </div>
+
+
+        </section>
+
+
+    </div>
+
+    <!-- <script src="https://kit.fontawesome.com/60a1f02c49.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/60a1f02c49.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
